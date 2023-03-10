@@ -1,0 +1,80 @@
+@import url('../../common.css');
+
+body {
+    background: rgb(110, 110, 110);
+}
+#wrapper {
+    
+    width: 1000px;
+    height: 1020px;
+    margin: 0 auto;
+}
+#wrapper header {
+    height: 15%;
+    background: #141542;
+    padding: 20px 0;
+}
+#wrapper header h1 {
+    color: rgb(185, 185, 0);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+#wrapper header strong {
+    color: #fff;
+    font-size: 70px;
+}
+#wrapper header span {
+    font-size: 40px;
+}
+#wrapper header em {
+    font-size: 50px;
+    color: #dadada;
+}
+/* end header style */
+
+
+/* begin container style */
+.container {
+    height: 80%;
+    
+}
+.container .menu {
+    float: left;
+    background: rgb(223, 223, 223);
+    padding: 40px 30px; /* 230px*/
+    width: 20%;
+    height: 100%;
+}
+
+.container .menu li {
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+.container .menu li a:hover {
+    color: #685555;
+}
+#wrapper .container .content {
+    height: 100%;
+    width: 80%;
+    float: right;
+   
+}
+#wrapper .container .content h2 {
+    background: rgb(122, 0, 0);
+    color: yellow;
+    font-family: cursive;
+    padding: 15px 25px;
+    font-size:30px;
+}
+#wrapper .container .content p {
+    
+    font-family: '굴림체';
+    background: #fff;
+    padding: 30px;
+    line-height: 30px;
+}
+#wrapper footer {
+    padding: 20px;
+    background: #999999;
+}
